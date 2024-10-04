@@ -4,77 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="ace">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/FrontController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/54206.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/ESTRELLA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/Holis.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/Vector.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/Wssss.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/bebidas.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/cafe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/cafea.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/favicon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/fondop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/holisssss.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/profile.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/reclamaciones.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/verde1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/verde2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bottoms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/claims.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/premises.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/reward.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/shop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="El index esta en thymeleaf y ya esta el controlador para cada sección">
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727972485933</updated>
       <workItem from="1727972486742" duration="4942000" />
-      <workItem from="1727994969983" duration="8659000" />
+      <workItem from="1727994969983" duration="8822000" />
     </task>
     <task id="LOCAL-00001" summary="ace">
       <option name="closed" value="true" />
@@ -195,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727973001582</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="El index esta en thymeleaf y ya esta el controlador para cada sección">
+      <option name="closed" value="true" />
+      <created>1728006425573</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1728006425573</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +153,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ace" />
-    <option name="LAST_COMMIT_MESSAGE" value="ace" />
+    <MESSAGE value="El index esta en thymeleaf y ya esta el controlador para cada sección" />
+    <option name="LAST_COMMIT_MESSAGE" value="El index esta en thymeleaf y ya esta el controlador para cada sección" />
   </component>
 </project>
