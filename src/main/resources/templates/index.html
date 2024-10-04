@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th ="https://www.thymeleaf.org/">
+
+<head th:insert="fragments/head :: head"></head>
+
+<header th:replace="fragments/header :: header"></header>
+
+<!-- Sección con la imagen de fondo y texto verde -->
+<section class="seccion-imagen">
+    <div class="texto-encima">
+        <h1>ENCUENTRA EL CAFÉ PARA TI</h1>
+        <p>Starbucks® llega a tu casa</p>
+        <h3 class="subtitulo">Disfruta el café de Starbucks® que más te guste, ahora desde casa.</h3>
+    </div>
+    <div class="imagen-fondo">
+        <img src="/img/holisssss.PNG" alt="STARBUCKS" id="fondo">
+    </div>
+</section>
+
+<!-- Segunda sección para contenido adicional -->
+
+<section class="contenido-seccion-2">
+    <div class="texto-crema-humo">
+        <p class="titulo">STARBUCKS® COFFEE. En tu casa, a tu manera.</p>
+        <p><br><br>Un sabor tan único como en casa, descubre nuestro café Starbucks® y prepara el tuyo en casa. Disfruta
+            de una deliciosa taza de café 100% arábica o de un café inspirado en nuestros clásicos, cuándo y cómo
+            quieras.</p>
+    </div>
+</section>
+
+
+<section class="mi-seccion-unica">
+    <div class="mi-tabla">
+        <div class="mi-columna">
+            <img src="https://i.pinimg.com/564x/19/b0/18/19b018d40e978175485af6b675b29e66.jpg" alt="Imagen">
+        </div>
+        <div class="mi-columna">
+            <h2>Despierta el día con energía y sabor</h2>
+            <p>Pide tu combinación perfecta para iniciar el día con alegría y buen gusto.</p>
+        </div>
+    </div>
+</section>
+
+<section class="nueva-seccion-unica">
+    <div class="mi-tabla">
+        <div class="mi-columna">
+            <h2>Disfruta tu experiencia Starbucks® donde quieras</h2>
+            <h3>¡Te lo llevamos!</h3>
+            <p>¿Eres más de café, de smoothie, de latte o de Frappuccino®? No esperes más y pide Starbucks®.</p>
+        </div>
+        <div class="mi-columna">
+            <img src="https://i.pinimg.com/564x/76/ab/50/76ab50017fd2ccb98afc20b2632f4c13.jpg" alt="Imagen">
+        </div>
+    </div>
+</section>
+
+
+<section class="about-us">
+    <div class="info">
+        <i>
+            <h2>ESTILO DE VIDA</h2>
+        </i>
+        <p>Hacer café para los invitados siempre es una excelente idea, independientemente de la ocasión. No hay nada
+            como compartir un delicioso café preparado con los sabores únicos de Starbucks® con amigos, familiares o
+            colegas. Prepárales una experiencia inolvidable con una amplia variedad de opciones, desde los clásicos
+            favoritos hasta las últimas innovaciones en café. ¡Haz que cada momento sea especial con Starbucks®<br></p>
+        <img th:src="@{/img/cafea.jpg}" alt="Café con amigos" class="imagen-cafe">
+        <br><br><br>
+        <hr>
+    </div>
+</section>
+
+<!-- Galería -->
+<section class="gallery-section">
+    <div class="animal-icon">
+        <img src="https://www.starbucksathome.com/pe/sites/default/files/2021-03/Lockup.svg" alt="logo footer"
+             class="favicon">
+    </div>
+
+    <div class="gallery-content">
+        <div class="img-card"><img th:src="@{/img/img-1.jpg}" alt="Cada sorbo, un momento de felicidad."></div>
+        <div class="img-card"><img th:src="@{/img/img-2.jpg}" alt="Encuentra la calidez en cada taza."></div>
+        <div class="img-card"><img th:src="@{/img/img-3.jpg}" alt="La vida sabe mejor con un toque de café."></div>
+        <div class="img-card"><img th:src="@{/img/img-4.jpg}" alt="Café para el alma, sonrisas para el corazón."></div>
+        <div class="img-card"><img th:src="@{/img/img-5.jpg}" alt="Donde los sueños se mezclan con la crema."></div>
+        <div class="img-card"><img th:src="@{/img/img-6.jpg}" alt="Tu taza, tu momento de brillo."></div>
+        <div class="img-card"><img th:src="@{/img/img-7.jpg}" alt="Siente el abrazo reconfortante de cada sorbo."></div>
+        <div class="img-card"><img th:src="@{/img/img-8.jpg}" alt="Donde el aroma del café se mezcla con sonrisas."></div>
+        <div class="img-card"><img th:src="@{/img/img-9.jpg}" alt="Donde cada encuentro es una pausa para disfrutar."></div>
+        <div class="img-card"><img th:src="@{/img/img-10.jpg}" alt="Cada taza, una aventura por descubrir."></div>
+        <div class="img-card"><img th:src="@{/img/img-11.jpg}" alt="Café caliente, corazón cálido."></div>
+        <div class="img-card"><img th:src="@{/img/img-12.jpg}" alt="Cada café, una historia por contar."></div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal">
+        <span id="closeModal"><i class="fas fa-times"></i></span>
+        <img id="imgModal" src="" alt="">
+        <p id="caption"></p>
+    </div>
+</section>
+
+<footer th:replace="fragments/footer :: footer"></footer>

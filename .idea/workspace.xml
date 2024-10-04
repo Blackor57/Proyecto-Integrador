@@ -4,27 +4,105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="ace" />
+    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="ace">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/FrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/54206.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/ESTRELLA.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/Holis.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/Vector.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/Wssss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/bebidas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/cafe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/cafea.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/dish6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/favicon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/fondop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/holisssss.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/imagen9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/img-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/profile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/reclamaciones.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/verde1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/img/verde2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bottoms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/claims.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/premises.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/reward.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/shop.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Blackor57"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Blackor57&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Blackor57/Proyecto-Integrador.git",
-    "accountId": "4ab2ba45-8c19-4d01-80f8-7135836421d6"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Blackor57/Proyecto-Integrador.git&quot;,
+    &quot;accountId&quot;: &quot;4ab2ba45-8c19-4d01-80f8-7135836421d6&quot;
   }
-}]]></component>
+}</component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -32,33 +110,47 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2mw0li2C32HIaS7jAR4ZobG62Le" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.51424694",
-    "settings.editor.selected.configurable": "com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ProyectoIntegradorApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.51424694&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jhoel\IdeaProjects\Proyecto-Integrador\src\main\resources\templates" />
+      <recent name="C:\Users\jhoel\IdeaProjects\Proyecto-Integrador\src\main\resources\static\img" />
+      <recent name="C:\Users\jhoel\IdeaProjects\Proyecto-Integrador\src\main\resources\static" />
+      <recent name="C:\Users\jhoel\IdeaProjects\Proyecto-Integrador\src\main\resources\static\styles" />
+      <recent name="C:\Users\jhoel\IdeaProjects\Proyecto-Integrador\src\main\resources\static\Styles" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="ProyectoIntegradorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Proyecto-Integrador" />
@@ -84,7 +176,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727972485933</updated>
-      <workItem from="1727972486742" duration="685000" />
+      <workItem from="1727972486742" duration="4942000" />
+      <workItem from="1727994969983" duration="8659000" />
     </task>
     <task id="LOCAL-00001" summary="ace">
       <option name="closed" value="true" />
