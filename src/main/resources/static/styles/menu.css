@@ -1,0 +1,265 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    /* Alineación de elementos para estirar verticalmente */
+    min-height: 100vh;
+    padding: var(--padding-large);
+}
+
+@media only screen and (max-width: 420px) {
+    .container {
+        padding: var(--padding-zero);
+    }
+}
+
+.column-left {
+    flex: 35%;
+    /* Ocupa el 35% del espacio disponible */
+    padding: var(--padding-xlarge);
+    position: relative;
+    /* Posición relativa para el contenedor */
+    overflow: hidden;
+    /* Oculta cualquier contenido que se desborde */
+    background-color: var(--white);
+    /* Fondo blanco para cubrir toda la columna */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column-left img {
+    width: auto;
+    /* Ancho automático para mantener la proporción */
+    max-width: 100%;
+    /* Máximo ancho del contenedor */
+    height: 100%;
+    /* Alto al 100% del contenedor */
+    position: absolute;
+    /* Posición absoluta para mantener estática */
+    top: 50%;
+    /* Centra verticalmente */
+    transform: translateY(-50%);
+    /* Ajusta para centrar verticalmente */
+    left: 0;
+    /* Alineación a la izquierda */
+}
+
+@media only screen and (max-width: 420px) {
+    .column-left img {
+        max-width: var(--max-width-zero);
+        /* Máximo ancho del contenedor */
+        height: var(--height-zero);
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .column-left {
+        flex: var(--flex-zero);
+        padding: var(--padding-zero);
+    }
+}
+
+.column-right {
+    flex: 65%;
+    /* Ocupa el 65% del espacio disponible */
+    padding: var(--padding-medium);
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    /* Habilita el scroll vertical si el contenido es más largo */
+}
+
+@media only screen and (max-width: 420px) {
+    .column-right {
+        flex: 100%;
+        padding: var(--padding-zero);
+        background-color: var(--white);
+        border-radius: var(--border-radius-zero);
+        box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+    }
+}
+
+.menus {
+    background-color: var(--light-green);
+    padding: var(--padding-medium);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgb(252, 251, 251);
+    margin-bottom: var(--margin-medium);
+}
+
+.menus h2 {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: var(--padding-small);
+    margin-bottom: var(--margin-small);
+}
+
+.menus h3 {
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+    padding-bottom: var(--padding-small);
+    margin-bottom: var(--margin-small);
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-large);
+    justify-content: center;
+    margin-bottom: var(--margin-medium);
+}
+
+.card {
+    flex: 1 0 300px;
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: var(--white);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+}
+
+.card-body {
+    padding: var(--padding-medium);
+}
+
+.card-text {
+    color: var(--dark-green);
+}
+
+.card-title {
+    color: var(--dark-green-strong);
+}
+
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: var(--padding-medium);
+    background-color: var(--gray-light);
+    border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
+
+.btn {
+    padding: var(--padding-button);
+    background-color: var(--green-strong);
+    color: var(--white);
+    border: none;
+    border-radius: var(--border-radius-button);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: var(--green-hover);
+}
+
+h5 {
+    color: var(--blue);
+}
+
+.menus1 {
+    background-color: var(--light-green);
+    padding: var(--padding-medium);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgb(252, 251, 251);
+    margin-bottom: var(--margin-medium);
+}
+
+.menus1 h2 {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    border-bottom: 1px solid var(--black);
+    padding-bottom: var(--padding-small);
+    margin-bottom: var(--margin-small);
+}
+
+.menus1 h3 {
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+    padding-bottom: var(--padding-small);
+    margin-bottom: var(--margin-small);
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--gap-large);
+}
+
+.product-card {
+    background-color: var(--white);
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+}
+
+.product-image {
+    flex: 40%;
+    overflow: hidden;
+    border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product-details {
+    flex: 60%;
+    padding: var(--padding-medium);
+    display: flex;
+    flex-direction: column;
+}
+
+.product-title {
+    font-size: var(--font-size-large);
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: var(--margin-small);
+}
+
+.product-description {
+    font-size: var(--font-size-medium);
+    color: var(--gray);
+    margin-bottom: var(--margin-small);
+}
+
+.product-price {
+    font-size: var(--font-size-medium);
+    font-weight: bold;
+    color: var(--dark-green-strong);
+    margin-bottom: var(--margin-small);
+}
+
+.product-actions {
+    margin-top: auto;
+}
+
+.btnA {
+    padding: var(--padding-button);
+    background-color: var(--green-strong);
+    color: var(--white);
+    border: none;
+    border-radius: var(--border-radius-button);
+    cursor: pointer;
+}
+
+.btnA:hover {
+    background-color: var(--green-hover);
+}
+
+@media (max-width: 768px) {
+    .product-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

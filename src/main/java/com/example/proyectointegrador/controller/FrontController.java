@@ -49,4 +49,9 @@ public class FrontController {
     public String claims(){
         return "claims";
     }
+
+    @GetMapping("/locals")
+    public String reclamation(){
+        return "locals";
+    }
 }

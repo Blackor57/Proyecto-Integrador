@@ -289,7 +289,7 @@
 
 /*boton registro*/
 .button-frap-green-sb {
-    background: #006241;
+    background: var(--color-verde-oscuro);
     /* Utiliza el valor hexadecimal directamente */
     border-radius: 500px;
     box-shadow: 0 0 6px rgb(0 0 0 / 24%), 0 8px 12px rgb(0 0 0 / 14%);

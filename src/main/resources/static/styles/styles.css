@@ -1,3 +1,75 @@
+:root {
+    /* Colores básicos */
+    --color-blanco: #ffffff;
+    --color-negro: #000000;
+    --color-verde-oscuro: #1d4d23;
+    --color-verde-medio: rgb(0, 128, 79);
+    --color-verde-claro: rgb(19, 68, 49);
+    --color-gris-claro: #808080;
+    --color-gris-fondo: #d6d5d5;
+    --color-gris-borde: rgba(0, 0, 0, 0.12);
+    --color-negro-transparente: rgba(0, 0, 0, 0.58);
+    --color-verde-nerde: #046f26;
+    --color-verde-texto: #046f26;
+    --color-crema-humo: #fffbfb;
+    --color-oscuro-galeria: #0C3618;
+
+    /* Colores del footer */
+    --footer-color-gris: #d0d0d0;
+    --footer-color-fondo: var(--color-negro); /* Suponiendo que sea el negro */
+    --footer-color-texto: var(--color-blanco);
+    --footer-borde: var(--color-gris-borde);
+
+    /* Colores de fuentes */
+    --color-texto-verde: #046f26;
+    --color-texto-negro: var(--color-negro);
+    --color-texto-blanco: var(--color-blanco);
+    --color-texto-gris: rgba(0, 0, 0, 0.58);
+    --color-texto-verde-claro: #046f26;
+    --color-hover: #f0f0f0;
+
+    /* Colores adicionales */
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #666666;
+    --gray-light: #f2f2f2;
+    --blue: rgb(0, 91, 228);
+    --light-green: #ddebdf;
+    --dark-green: #3e7a4cd0;
+    --dark-green-strong: #124b20;
+    --green-strong: #136e28;
+    --green-hover: #084e1a;
+
+    /* Tamaños de Padding */
+    --padding-zero: 0px;
+    --padding-small: 8px;
+    --padding-medium: 20px;
+    --padding-large: 40px;
+    --padding-xlarge: 40px;
+    --padding-button: 10px 20px;
+
+    /* Tamaños de Bordes */
+    --border-radius: 10px;
+    --border-radius-zero: 0px;
+    --border-radius-button: 5px;
+
+    /* Margenes */
+    --margin-small: 10px;
+    --margin-medium: 20px;
+
+    /* Gap */
+    --gap-large: 18px;
+
+    /* Tamaños de fuente */
+    --font-size-medium: 18px;
+    --font-size-large: 24px;
+
+    /* Flex y Dimensiones */
+    --flex-zero: 0%;
+    --max-width-zero: 0%;
+    --height-zero: 0%;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -170,8 +242,8 @@ footer td ul li a[href="http://localhost/Vscode.proyec/MERCH.php"] {
 footer{
     width: 100%;
     height: auto;
-    background-color: var(--black-style);
-    color: var(--white-style);
+/*    background-color: var(--black-style);
+    color: var(--white-style);*/
     font-family: 'Baloo', Helvetica, sans-serif;
     padding: 40px 50px 40px 60px;
     border-top: 2px solid rgba(0, 0, 0, 0.12);
@@ -304,7 +376,7 @@ label {
     letter-spacing: -0.01em;
 }
 
-/* Container for 'claims.html' */
+/* Container for 'reclamaciones' */
 .reclamaciones {
     margin-bottom: 20px; /* Espacio debajo del enlace */
 }

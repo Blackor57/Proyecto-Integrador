@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="El index esta en thymeleaf y ya esta el controlador para cada sección">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="se comentaron las depencias que no estamos usando">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/formularios.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/menu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/locals.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/FrontController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/bottoms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bottoms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/claims.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/claims.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/menu.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +70,9 @@
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;Spring Boot.ProyectoIntegradorApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jhoel/IdeaProjects/COLEGIO&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -108,7 +120,15 @@
       <option name="presentableId" value="Default" />
       <updated>1727972485933</updated>
       <workItem from="1727972486742" duration="4942000" />
-      <workItem from="1727994969983" duration="8822000" />
+      <workItem from="1727994969983" duration="8942000" />
+      <workItem from="1728065682224" duration="6045000" />
+      <workItem from="1728396355082" duration="106000" />
+      <workItem from="1728400031273" duration="20000" />
+      <workItem from="1728400501481" duration="10000" />
+      <workItem from="1728401744023" duration="159000" />
+      <workItem from="1728402566270" duration="131000" />
+      <workItem from="1728417225197" duration="857000" />
+      <workItem from="1728484569016" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="ace">
       <option name="closed" value="true" />
@@ -134,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728006425573</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="se comentaron las depencias que no estamos usando">
+      <option name="closed" value="true" />
+      <created>1728006588836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728006588836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,6 +182,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ace" />
     <MESSAGE value="El index esta en thymeleaf y ya esta el controlador para cada sección" />
-    <option name="LAST_COMMIT_MESSAGE" value="El index esta en thymeleaf y ya esta el controlador para cada sección" />
+    <MESSAGE value="se comentaron las depencias que no estamos usando" />
+    <option name="LAST_COMMIT_MESSAGE" value="se comentaron las depencias que no estamos usando" />
   </component>
 </project>
