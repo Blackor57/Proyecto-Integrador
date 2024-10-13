@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th ="https://www.thymeleaf.org/">
+
+<head th:insert="fragments/head :: head"></head>
+
+<header th:replace="fragments/header :: header"></header>
+
+<div class="join-rewards">
+    <div class="rewards-detail-one">
+        <div class="title title-reward-init">
+            <div class="image">
+                <img src="/img/Vector.png" alt="hight">
+            </div>
+        </div>
+        <div class="banner-home">
+            <div class="initial">
+                <div class="text">
+                    <div class="summary"> TU PIZZA EN EL MEJOR LUGAR
+                    </div>
+                    <a class="button-frap-green-sb prevent-click" th:href="@{/login}">Registrarse en Rewards</a>
+                </div>
+                <div class="banner-img">
+                    <img class="star-image" src="/img/ESTRELLA.png" alt="PIZZA">
+                    <img class="star-image-responsive" src="/img/Wssss.png" alt="PIZZA">
+                </div>
+            </div>
+        </div>
+
+        <div class="contenedor-reward">
+            <div class="titulo-reward">Comenzar es Fácil</div>
+            <div class="subtitulo-reward">Gana Estrellas y canjéalas por recompensas en tres simples pasos</div>
+            <div class="columnas-reward">
+                <div class="columna-reward">
+                    <h2 class="titulo-columna-reward">1</h2>
+                    <h3 class="subtitulo-columna-reward">Crea tu Cuenta en Nuestra Página</h3>
+                    <p class="descripcion-columna-reward">Regístrate desde nuestra obtén beneficios exclusivos.</p>
+                </div>
+                <div class="columna-reward">
+                    <h2 class="titulo-columna-reward">2</h2>
+                    <h3 class="subtitulo-columna-reward">Haz tu Pedido y Paga como Quieras</h3>
+                    <p class="descripcion-columna-reward">Realiza tus pagos con tarjeta o con efectivo y ganas puntos.</p>
+                </div>
+                <div class="columna-reward">
+                    <h2 class="titulo-columna-reward">3</h2>
+                    <h3 class="subtitulo-columna-reward">Convierte tus Estrellas en Recompensas</h3>
+                    <p class="descripcion-columna-reward">A medida que ganas Estrellas, puedes canjearlas por
+                        recompensas como bebidas, pizzas o paquetes absolutamente gratis. ¡Registrate y empieza a canjear!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-container">
+            <div class="category-buttons">
+                <button id="cat25" class="category-button">25<span class="star">★</span></button>
+                <button id="cat50" class="category-button">50<span class="star">★</span></button>
+                <button id="cat100" class="category-button">100<span class="star">★</span></button>
+                <button id="cat200" class="category-button">200<span class="star">★</span></button>
+                <button id="cat300" class="category-button">300<span class="star">★</span></button>
+            </div>
+            <div class="category-divider-container">
+                <hr id="cat25Line" class="category-divider">
+                <hr id="cat50Line" class="category-divider">
+                <hr id="cat100Line" class="category-divider">
+                <hr id="cat200Line" class="category-divider">
+                <hr id="cat300Line" class="category-divider">
+            </div>
+            <div id="categoryContent" class="category-content">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script th:src="@{/js/carousel.js}"></script>
+
+<footer th:replace="fragments/footer :: footer"></footer>

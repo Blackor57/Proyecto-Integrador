@@ -1,6 +1,7 @@
 :root {
     /* Colores básicos */
     --color-blanco: #ffffff;
+    --bg-color-yellow: #ffd700;
     --color-negro: #000000;
     --color-verde-oscuro: #1d4d23;
     --color-verde-medio: rgb(0, 128, 79);
@@ -13,6 +14,7 @@
     --color-verde-texto: #046f26;
     --color-crema-humo: #fffbfb;
     --color-oscuro-galeria: #0C3618;
+    --color-verde-clarito: #cbe7de;
 
     /* Colores del footer */
     --footer-color-gris: #d0d0d0;

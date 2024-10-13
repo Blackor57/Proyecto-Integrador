@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th ="https://www.thymeleaf.org/">
+
+<head th:fragment="head">
+    <meta charset="UTF-8"> <!--ESPAÑOL-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ADAPTABLE EQUIPOS-->
+    <title>Starbucks</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/styles/styles.css}">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" th:href="@{/styles/bottoms.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/styles/shop.css}">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Teachers:wght@500&display=swap');
+    </style>
+    <!--Logo-->
+    <link rel="icon" href="/img/favicon.jpg" type="image/x-icon">
+</head>
+
+<header th:replace="fragments/header :: header"></header>
+
+<body>
+<div class="categorias">
+    <button class="categoria-btn" data-categoria="manana">BEBIDAS</button>
+    <button class="categoria-btn" data-categoria="tarde">ALIMENTOS</button>
+    <button class="categoria-btn" data-categoria="noche">MERCH Y CAFÉ EN GRANO</button>
+    <button class="categoria-btn" data-categoria="fiesta">PACKS Y BOXES</button>
+</div>
+<section class="contenedor">
+    <!-- Contenedor de elementos -->
+    <div class="contenedor-items">
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Retro Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/RETRO_FRAPPUCCINO_202405031709509334.PNG" alt="" class="img-item">
+            <span class="precio-item">$ 16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Matcha Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MATCHA_FRAPPUCCINO_ECOMMERCE_V1.png" alt="" class="img-item">
+            <span class="precio-item">$16,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Caramel Ribbon Crunch Frappuccino </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CARAMEL_RIBBON_CRUNCH_FRAPPUCCINO_202304251646090696.PNG" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Cookies & Creme Frappuccino </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/COOKIES_CREAM_FRAPPUCCINO_202303061805104998.PNG" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Chocolate Cookies & Creme Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CHOCOLATE_COOKIES_CREAM_FRAPPUCCINO_202303061807246058.PNG" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mocha blanco Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MOCHA_BLANCO_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Fresa Crème Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/FRESA_CREME_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mocha Cookie Crumble Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MochaCookieCrumbleFrapp_V1.png" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Black & White Mocha Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/BLACK_AND_WHITE_MOCHA_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Ultimate Caramel Frappuccino </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/ULTIMATE_CARAMEL_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$16,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mocha Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MOCHA_FRAPP_V3.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Chocolúcuma cream Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CHOCOLUCUMA_CREAM_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$17,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Caramel Frappuccino </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CARAMEL_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Triple Mocha Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TRIPLE_MOCHA_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Algarrobina Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/ALGARROBINA_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Chocolate Crème Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CHOCOLATE_CREME_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Lúcuma Crème Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/LUCUMA_CREME_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Manjar blanco Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MANJAR_BLANCO_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15.00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Vainilla Crème Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/VAINILLA_CREME_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Café Frappuccino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CAFE_FRAPP_V2.png" alt="" class="img-item">
+            <span class="precio-item">$12,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Algarrobina Creme Frappuccino </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/Algarrobina_FR_V1.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Cinnamon Chocolate Truffle Latte </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CINNAMON_CHOCOLATE_TRUFFLE_LATTE_202406251845409404.PNG" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mocha Macchiato con bebida de avena</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/COCOA_MACCHIATO_CON_LECHE_DE_AVENA_ECOMMERCE.png" alt="" class="img-item">
+            <span class="precio-item">$16,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Black & White Mocha</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/BLACK_AND_WHITE_MOCHA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Americano </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/AMERICANO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Flat white </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/FLAT_WHITE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Latte</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/LATTE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$11,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Latte Macchiato</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/LATTE_MACHIATTO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mocha café </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MOCHA_CAFE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Vainilla Latte </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/VAINILLA_LATTE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Caramel Macchiato</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CARAMEL_MACCHIATO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mocha blanco café</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MOCHA_BLANCO_CAFE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Skinny Vainilla Latte </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SKINNY_%20VAINILLA_LATTE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Manjar blanco Latte </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MANJAR_BLANCO_LATTE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Algarrobina Latte</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/ALGARROBINA_LATTE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Cinnamon Chocolate Latte Helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CINNAMON_CHOCOLATE_LATTE_HELADO_202406251854114807.PNG" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Latte Frío con bebida de avena</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/ICED_LATTE_CON_LECHE_DE_AVENA_ECOMMERCE.png" alt="" class="img-item">
+            <span class="precio-item">$16,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Cocoa Macchiatto Frío con bebida de avena</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MOCHA_MACCHIATO_FR%C3%8DO_ECOMMERCE.png" alt="" class="img-item">
+            <span class="precio-item">$16,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Black Cold Brew</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/BLACK_COLD_BREW_V2.png" alt="" class="img-item">
+            <span class="precio-item">$10,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Americano helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/AMERICANO_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Latte helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/LATTE_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$11,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Vainilla Latte helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/VAINILLA_LATTE_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Caramel Macchiato helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CARAMEL_MACCHIATO_HELADO_202302161101006150.PNG" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mocha blanco café helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MOCHA_BLANCO_CAFE_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50
+                </span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Manjar blanco Latte helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MANJAR_BLANCO_LATTE_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Skinny Vainilla Latte helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SKINNY_VAINILLA_LATTE_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$11,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mocha café helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MOCHA_CAFE_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Vainilla Cold brew</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/Vainilla_Cold_brew_V1.png" alt="" class="img-item">
+            <span class="precio-item">$11,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Strawberry Acai Frozen Refresher</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/STRAWBERRY_ACAI_FROZEN_REFRESHER_202303231539284586.PNG" alt="" class="img-item">
+            <span class="precio-item">$16,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mango Dragon Frozen Refresher</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MANGO_DRAGON_FROZEN_REFRESHER_202303231541268568.PNG" alt="" class="img-item">
+            <span class="precio-item">$16,00
+                </span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Strawberry Acaí Refresher</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/STRAWBERRY_ACAI_REFRESHER_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Strawberry Acaí Lemonade Refresher</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/STRAWBERRY_ACAI_LEMONADE_REFRESHER_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Pink Drink</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/PINK_DRINK_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mango Dragon Fruit Refresher </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MANGO_DRAGON_FRUIT_REFRESHER_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Mango Dragon FruitLemonade Refresher</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MANGO_DRAGON_FRUIT_LEMONADE_REFRESHER_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Dragon Drink </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/DRAGON_DRINK_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Chocolate caliente </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CHOCOLATE_CALIENTE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Té Chai Teavanna</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TE_CHAI_TEAVANNA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Té Hibiscus Teavanna</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TE_HIBISCUS_TEAVANNA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Té Mint Citrus Teavanna</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TE_MINT_CITRUS_TEAVANNA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Té Chamomile Teavanna</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TE_CHAMOLINE_TEAVANNA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Jugo de Espinaca y Manzana</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/JUGO_DE_ESPINACA_Y_MANZANA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Jugo de Piña y Manzana</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/JUGO_DE_PI%C3%91A_Y_MANZANA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Té Mint Citrus Teavanna helado </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TE_MINT_CITRUS_TEAVANNA_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Té Hibiscus Teavanna helado </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TE_HIBISCUS_TEAVANNA_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Té Chamoline Teavanna helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TE_CHAMOLINE_TEAVANNA_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Chocolate helado</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CHOCOLATE_HELADO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Brown Sugar Shaken Espresso Frio con Bebida de Avena</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/BROWN_SUGAR_FRIO_SHAKEN_EXPRESSO_CON_BEBIDA_DE_AVENA_202303131838327498.PNG" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Toasted Vanilla Shaken Espresso Frio con Bebida de Avena </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TOASTED_VAINILLA_FRIO_SHAKEN_EXPRESSO_CON_BEBIDA_DE_AVENA_202303131840473348.PNG" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+        <div class="item" data-categoria="manana">
+            <span class="titulo-item">Chocolate Shaken Espresso Frío</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/ICED_CHOCOLATE_OATMILK_SHAKEN_ESPRESSO_ECOMMERCE.png" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+
+
+
+
+
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Banana Bread</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/BANANA_BREAD_202405290954349522.PNG" alt="" class="img-item">
+            <span class="precio-item">$8,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Muffin de Naranja</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MUFFIN_DE_NARANJA_Y_CHOCOCHIPS_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Keke de zanahoria</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/KEKE_DE_ZANAHORIA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Galleta cranberry</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/GALLETA_DE_CRANBERRIES_V2.png" alt="" class="img-item">
+            <span class="precio-item">$5,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Keke de limón</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/KEKE_DE_LIMON_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Galleta de chocochips</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/GALLETA_DE_CHOCOCHIPS_V2.png" alt="" class="img-item">
+            <span class="precio-item">$5,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Muffin de berries</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/MUFFIN_DE_BERRIES_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Egg Bites de Jamón y Queso</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/Egg_Bites_Jamon_Y_Queso_V1.png" alt="" class="img-item">
+            <span class="precio-item">$9,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Crocante de manzana vegetal</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CROCANTE_DE_MANZANA_VEGETAL_202303071258380326.PNG" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Cake Pop Vainilla</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/Cake_Pop_V1.png" alt="" class="img-item">
+            <span class="precio-item">$6,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Cheesecake de Chocolate</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CHEESECAKE_DE_CHOCOLATE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Cheesecake de Arándanos</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CHEESECAKE_DE_ARANDANOS_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Brownie de Cookies & Cream</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/BROWNIE_DE_COOKIES_AND_CREAM_V2.png" alt="" class="img-item">
+            <span class="precio-item">$8,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Torta de chocolate</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/TORTA_DE_CHOCOLATE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$12,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Wrap Napolitano</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/WRAP_NAPOLITANO_202405290938177717.PNG" alt="" class="img-item">
+            <span class="precio-item">$16,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Sandwich Italiano</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_ITALIANO_202405290947486206.PNG" alt="" class="img-item">
+            <span class="precio-item">$14,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Croissant de mantequilla</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CROISSANT_DE_MANTEQUILLA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$5,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Croissant de Jamón Serrano y Queso</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CROISSANT_DE_JAMON_SERRANO_Y_QUESO_202303061814451866.PNG" alt="" class="img-item">
+            <span class="precio-item">$15,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Croissant jamón del país y queso</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/croissant_jamon_pais_v3.png" alt="" class="img-item">
+            <span class="precio-item">$15,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Croissant jamón inglés y queso</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/croissant_jamon_ingles_v3.png" alt="" class="img-item">
+            <span class="precio-item">$15,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Sandwich Chicken Pesto Parmesano</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_CHICKEN_PESTO_PARMESANO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+                <span class="titulo-item">Sandwich Pavita & queso
+                </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_DE_PAVITA_Y_QUESO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Sandwich Eggmont</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_EGGMONT_V2.png" alt="" class="img-item">
+            <span class="precio-item">$12,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Sandwich Pavita, queso & espinaca</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_DE_PAVITA_QUESO_Y_ESPINACA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$14,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Sandwich Brioche campesino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_BRIOCHE_CAMPESINO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Empanada de lomo</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/EMPANADA_DE_LOMO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Empanada de ají de pollo</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/EMPANADA_DE_AJI_DE_GALLINA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$9,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Sandwich Panino vesubio</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_PANINO_VESUBIO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$12,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Sandwich Chicken panino</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_CHICKEN_PANINO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Sandwich Chicken ciabatta</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_CHICKEN_CIABATTA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$13,50</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="tarde">
+            <span class="titulo-item">Sandwich triple</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SANDWICH_TRIPLE_V2.png" alt="" class="img-item">
+            <span class="precio-item">$15,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+
+
+
+
+
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Voyage</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/VOYAGE_202406270944598741.PNG" alt="" class="img-item">
+            <span class="precio-item">$37,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Perú</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/PERU_202405130911227975.PNG" alt="" class="img-item">
+            <span class="precio-item">$37,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Espresso Roast</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/ESPRESSO_250_GR_202405130906146272.PNG" alt="" class="img-item">
+            <span class="precio-item">$37,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Verona</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/VERONA_202405130913058459.PNG" alt="" class="img-item">
+            <span class="precio-item">$37,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Sumatra</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/SUMATRA_202405130912150918.PNG" alt="" class="img-item">
+            <span class="precio-item">$37,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Colombia 250 gr.</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/CAFE_COLOMBIA_250GR_V2.png" alt="" class="img-item">
+            <span class="precio-item">$37,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Komodo Dragon</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/KOMODO_DRAGON_202405130908237553.PNG" alt="" class="img-item">
+            <span class="precio-item">$37,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Guatemala Casi Cielo 250 gr.</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/GUATEMALA_CASI_CIELO_250_GR_202303171329368177.PNG" alt="" class="img-item">
+            <span class="precio-item">$39,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Prensa Francesa</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/PRENSA_FRANCESA_202405021321472958.PNG" alt="" class="img-item">
+            <span class="precio-item">$160,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Prensa Cold Brew</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/PRENSA_COLD_BREW_202405021259531355.PNG" alt="" class="img-item">
+            <span class="precio-item">$160,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Prensa Pour Over</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/PRENSA_POUR_OVER_202405021305439701.PNG" alt="" class="img-item">
+            <span class="precio-item">$80,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Reusable Aniversario 20 años</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/REUSABLE_ANIVERSARIO_20_ANOS_202308041151421527.PNG" alt="" class="img-item">
+            <span class="precio-item">$25,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Vaso Blanco Reusable Sirena Blanca - 16 oz</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/VASO_REUSABLE_BLANCO_16OZ_202303071248009818.PNG" alt="" class="img-item">
+            <span class="precio-item">$25,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Vaso blanco reusable Sirena verde - 16 oz</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/VASO_REUSABLE_BLANCO_SIRENA_VERDE_16OZ_202303071252078126.PNG" alt="" class="img-item">
+            <span class="precio-item">$20,000</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="noche">
+            <span class="titulo-item">Vaso Frío Reusable 24 oz</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/VASO_REUSABLE_FRIO_24OZ_202303071254370179.PNG" alt="" class="img-item">
+            <span class="precio-item">$25,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="item" data-categoria="fiesta">
+            <span class="titulo-item">Coffee Traveler</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/COFFEE_TRAVELER_V2.png" alt="" class="img-item">
+            <span class="precio-item">$60,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="fiesta">
+            <span class="titulo-item">Pack Coffee Mixto</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/PACK_COFFEE_MIXTO_V2.png" alt="" class="img-item">
+            <span class="precio-item">$120,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="fiesta">
+                <span class="titulo-item">Pack Coffee Sandwich
+                </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/PACK_COFFEE_SANDWICH_V2.png" alt="" class="img-item">
+            <span class="precio-item">$135,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="fiesta">
+            <span class="titulo-item">Pack Coffee Galleta</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/PACK_COFFEE_GALLETA_V2.png" alt="" class="img-item">
+            <span class="precio-item">$95,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="fiesta">
+            <span class="titulo-item">Dúo Desayuno </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/DUO_DESAYUNO_HOLIDAY_202311141341420916.PNG" alt="" class="img-item">
+            <span class="precio-item">$11,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="fiesta">
+            <span class="titulo-item">Desayuno Para Dos </span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/DESAYUNO_PARA_DOS_V4.png" alt="" class="img-item">
+            <span class="precio-item">$30,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="fiesta">
+            <span class="titulo-item">Muffins 4 share</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/Muffin_4_share_v1.png" alt="" class="img-item">
+            <span class="precio-item">$32,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="fiesta">
+            <span class="titulo-item">Momentos Dulces</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/Duo_Engreimiento_V5.png" alt="" class="img-item">
+            <span class="precio-item">$14,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item" data-categoria="fiesta">
+            <span class="titulo-item">Sweet & Share</span>
+            <img src="https://www.starbucks.pe/Multimedia/productos/Sweet_Share_V1.png" alt="" class="img-item">
+            <span class="precio-item">$26,00</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+    </div>
+    <!-- Carrito de Compras -->
+    <div class="carrito" id="carrito">
+        <div class="header-carrito">
+            <h2>Tu Carrito</h2>
+        </div>
+
+        <div class="carrito-items">
+
+        </div>
+        <div class="carrito-total">
+            <div class="fila">
+                <strong>Tu Total</strong>
+                <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+            </div>
+            <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+        </div>
+    </div>
+</section>
+
+<script th:src="@{/js/shop.js}"></script>
+
+<footer th:replace="fragments/footer :: footer"></footer>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th ="https://www.thymeleaf.org/">
+
+<head th:insert="fragments/head :: head"></head>
+
+<header th:replace="fragments/header :: header"></header>
+
+<main>
+    <div class="perfil-container">
+        <h1>Mi Perfil</h1>
+        <div class="foto-container">
+            <img src="/img/profile.png" alt="Foto de perfil">
+        </div>
+        <div class="nombre-container">
+            <p><span class="nombre">Jhoel Alonso</span></p>
+        </div>
+        <div class="detalle-container">
+            <xdd>
+                <ul>
+                    <li><strong>Apellido:</strong> Tinipuclla Huaman </li>
+                    <li><strong>Cumpleaños:</strong>10/12/04 </li>
+                    <li><strong>DNI:</strong> 80124322</li>
+                    <li><strong>Email:</strong>user@gmail.com </li>
+                    <li><strong>Número de celular:</strong> 912 312 312</li>
+                </ul>
+            </xdd>
+        </div>
+    </div>
+</main>
+<br>
+
+<footer th:replace="fragments/footer :: footer"></footer>

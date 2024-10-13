@@ -1,15 +1,15 @@
 var lastScrollTop = 0; // Inicializa la variable lastScrollTop
 
 function toggleContactInfo() {
-    var btnContact = document.querySelector(".btn-contact");
-    var dropdownContent = document.getElementById("contactoContent");
-    var isOpen = dropdownContent.style.display === "block";
+    let btnContact = document.querySelector(".btn-contact");
+    let dropdownContent = document.getElementById("contactoContent");
+    let isOpen = dropdownContent.style.display === "block";
 
     // Cambiar la imagen del botón según si el menú desplegable está abierto o cerrado
     if (isOpen) {
-        btnContact.style.backgroundImage = "url('../img/verde1.png')"; // Cambia la imagen del botón a verde1.png
+        btnContact.style.backgroundImage = "url('../img/verde1.png')"; // Cambia la imagen del botón a XDD.png
     } else {
-        btnContact.style.backgroundImage = "url('../img/verde2.png')"; // Cambia la imagen del botón a verde2.png
+        btnContact.style.backgroundImage = "url('../img/verde2.png')"; // Cambia la imagen del botón a muerto.png
     }
 
     // Alternar la visibilidad del menú desplegable
@@ -17,7 +17,7 @@ function toggleContactInfo() {
 }
 
 window.addEventListener('scroll', function () {
-    var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+    let scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
     if (scrollPosition > lastScrollTop) {
         // Desplazamiento hacia abajo
@@ -32,9 +32,9 @@ window.addEventListener('scroll', function () {
 
 
 window.addEventListener('scroll', function () {
-    var footer = document.getElementById('footer');
-    var distanceFromTop = window.scrollY + window.innerHeight;
-    var documentHeight = document.body.offsetHeight;
+    let footer = document.getElementById('footer');
+    let distanceFromTop = window.scrollY + window.innerHeight;
+    let documentHeight = document.body.offsetHeight;
 
     if (distanceFromTop >= documentHeight) {
         footer.style.display = 'block';
@@ -114,3 +114,24 @@ gallery.forEach((images) => {
     });
 
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Obtener todos los botones con la clase 'btn-primary'
+    const buttons = document.querySelectorAll('.btn-primary');
+
+    // Iterar sobre cada botón y agregar el evento de clic
+    buttons.forEach(button => {
+        button.addEventListener('click', function() {
+            // Obtener la URL del atributo 'data-url'
+            const url = this.getAttribute('data-url');
+
+            // Redireccionar a la URL especificada
+            window.location.href = url;
+        });
+    });
+});
+
+
+

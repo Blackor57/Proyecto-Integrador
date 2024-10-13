@@ -4,18 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="se comentaron las depencias que no estamos usando">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/formularios.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/locals.html" afterDir="false" />
+    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="se agrego el formulario de reclamaciones">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/reward.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/shop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/FrontController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/bottoms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/bottoms.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/claims.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/claims.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/head.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/reward.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/reward.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/shop.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/shop.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,31 +66,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ProyectoIntegradorApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jhoel/IdeaProjects/COLEGIO&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.51424694&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.poratu.idea.plugins.tomcat.setting.TomcatServersConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.ProyectoIntegradorApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jhoel/IdeaProjects/COLEGIO",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.51424694",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jhoel\IdeaProjects\Proyecto-Integrador\src\main\resources\templates" />
@@ -128,7 +134,10 @@
       <workItem from="1728401744023" duration="159000" />
       <workItem from="1728402566270" duration="131000" />
       <workItem from="1728417225197" duration="857000" />
-      <workItem from="1728484569016" duration="699000" />
+      <workItem from="1728484569016" duration="1698000" />
+      <workItem from="1728675643838" duration="2000" />
+      <workItem from="1728774926382" duration="11000" />
+      <workItem from="1728832325514" duration="8569000" />
     </task>
     <task id="LOCAL-00001" summary="ace">
       <option name="closed" value="true" />
@@ -162,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728006588836</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="se agrego el formulario de reclamaciones">
+      <option name="closed" value="true" />
+      <created>1728485322062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728485322062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +200,7 @@
     <MESSAGE value="ace" />
     <MESSAGE value="El index esta en thymeleaf y ya esta el controlador para cada sección" />
     <MESSAGE value="se comentaron las depencias que no estamos usando" />
-    <option name="LAST_COMMIT_MESSAGE" value="se comentaron las depencias que no estamos usando" />
+    <MESSAGE value="se agrego el formulario de reclamaciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="se agrego el formulario de reclamaciones" />
   </component>
 </project>
