@@ -1,4 +1,4 @@
-<header th:fragment="header">
+<header th:fragment="header" xmlns:sec="http://www.w3.org/1999/xhtml">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" th:href="@{/home}">
@@ -19,20 +19,17 @@
 <!--                        <a class="nav-link" th:href="@{/locals}">Locales</a>-->
 <!--                    </li>-->
                     <!-- Para el Inicio de Sesion -->
-                    <li class="nav-item" >
+                    <li class="nav-item" sec:authorize="!isAuthenticated()" >
+                        <a th:href="@{/register}" class="nav-link">Iniciar</a>
+                    </li>
+                    <li class="nav-item" sec:authorize="isAuthenticated()" >
                         <a th:href="@{/shop}" class="nav-link">Comprar</a>
                     </li>
-                    <li class="nav-item" >
+                    <li class="nav-item" sec:authorize="isAuthenticated()" >
                         <a th:href="@{/profile}" class="nav-link">Usuario</a>
                     </li>
-                    <li class="nav-item" >
-                        <a th:href="@{/menu}" class="nav-link">Cerrar Sesión</a>
-                    </li>
-                    <li class="nav-item" >
-                        <a th:href="@{/login}" class="nav-link">Iniciar</a>
-                    </li>
-                    <li class="nav-item" >
-                        <a th:href="@{/register}" class="nav-link">Registrarse</a>
+                    <li class="nav-item" sec:authorize="isAuthenticated()" >
+                        <a class="nav-link" th:href="@{/logout}">Logout</a>
                     </li>
                 </ul>
             </div>

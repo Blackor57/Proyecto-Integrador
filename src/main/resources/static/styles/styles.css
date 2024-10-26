@@ -72,6 +72,8 @@
     --height-zero: 0%;
 }
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -95,18 +97,10 @@
     }
 }
 
-html, body {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    font-feature-settings: "calt";
-    background-color: #fff;
-    color: rgba(0, 0, 0, .87);
-    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    height: 100%;
-    line-height: 1.5;
-    overflow-x: hidden;
+html {
+    font-size: 62.5%;
 }
+
 
 body {
     width: 100%;
@@ -114,6 +108,7 @@ body {
 
 header {
     width: 100%;
+    font-size: 2.2rem;
 }
 /* Estilos generales */
 .navbar-brand{

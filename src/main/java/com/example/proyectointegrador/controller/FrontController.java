@@ -7,8 +7,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class FrontController {
 
-    @GetMapping("/home")
-    public String home(){ return "index"; }
+    @GetMapping("/index")
+    public String index(){
+        return "index";
+    }
 
     @GetMapping("/reward")
     public String reward(){
@@ -25,21 +27,6 @@ public class FrontController {
         return "shop";
     }
 
-    @GetMapping("/premises")
-    public String premises(){
-        return "premises";
-    }
-
-    @GetMapping("/login")
-    public String login(){
-        return "login";
-    }
-
-    @GetMapping("/register")
-    public String register(){
-        return "register";
-    }
-
     @GetMapping("/profile")
     public String profile(){
         return "profile";
@@ -50,8 +37,28 @@ public class FrontController {
         return "claims";
     }
 
-    @GetMapping("/locals")
-    public String reclamation(){
-        return "locals";
-    }
+//    @GetMapping("/merch")
+//    public String merch(){
+//        return "merch";
+//    }
+//
+//    @GetMapping("/packs")
+//    public String packs(){
+//        return "packs";
+//    }
+//
+//    @GetMapping("/food")
+//    public String food(){
+//        return "food";
+//    }
+//
+//    @GetMapping("/drinks")
+//    public String drinks(){
+//        return "drinks";
+//    }
+    //    Todavia no se si colocarlo
+//    @GetMapping("/locals")
+//    public String locals(){
+//        return "public locals";
+//    }
 }
