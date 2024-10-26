@@ -239,8 +239,8 @@ footer td ul li a[href="http://localhost/Vscode.proyec/MERCH.php"] {
 footer{
     width: 100%;
     height: auto;
-/*    background-color: var(--black-style);
-    color: var(--white-style);*/
+    background-color: var(--color-verde-oscuro);
+    /* color: var(--white-style);*/
     font-family: 'Baloo', Helvetica, sans-serif;
     padding: 40px 50px 40px 60px;
     border-top: 2px solid rgba(0, 0, 0, 0.12);

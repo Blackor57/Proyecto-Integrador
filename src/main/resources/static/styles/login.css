@@ -30,7 +30,7 @@ main > div {
     font-weight: bold;
 }
 .chooser__container button:hover {
-    background-color: var(--bg-strong-red) !important;
+    background-color: var(--color-verde-oscuro) !important;
     color: #fff !important;
 }
 
@@ -40,7 +40,12 @@ main > div {
 }
 
 #button1-chooser {
-    background-color: var(--primary-color);
+    background-color: var(--color-blanco);
+    color: #000;
+}
+
+#button2-chooser {
+    background-color: var(--color-blanco);
     color: #000;
 }
 

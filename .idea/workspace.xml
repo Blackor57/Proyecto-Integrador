@@ -4,38 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="Se optimizaron los css, y se dejo como estaba antes:&#10;- falta login &#10;- el y menu">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/PublicController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/RegistroUsuarioControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/dto/UsuarioRegistroDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/entity/Rol.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/entity/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/repository/UsuarioRepositorio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/security/EnconderConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/security/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/security/SecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicioImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="ya esta el login y bd">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/FrontController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/FrontController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/formularios.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/formularios.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/login.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/claims.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/claims.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/premises.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/reward.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/reward.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/footer.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +134,7 @@
       <workItem from="1729553879783" duration="13000" />
       <workItem from="1729804200914" duration="1936000" />
       <workItem from="1729956283091" duration="9639000" />
-      <workItem from="1729973306553" duration="1081000" />
+      <workItem from="1729973306553" duration="3218000" />
     </task>
     <task id="LOCAL-00001" summary="ace">
       <option name="closed" value="true" />
@@ -210,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728841254328</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ya esta el login y bd">
+      <option name="closed" value="true" />
+      <created>1729974620861</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1729974620861</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +215,7 @@
     <MESSAGE value="se comentaron las depencias que no estamos usando" />
     <MESSAGE value="se agrego el formulario de reclamaciones" />
     <MESSAGE value="Se optimizaron los css, y se dejo como estaba antes:&#10;- falta login &#10;- el y menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se optimizaron los css, y se dejo como estaba antes:&#10;- falta login &#10;- el y menu" />
+    <MESSAGE value="ya esta el login y bd" />
+    <option name="LAST_COMMIT_MESSAGE" value="ya esta el login y bd" />
   </component>
 </project>

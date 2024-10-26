@@ -10,10 +10,10 @@ const showSection = (value) => {
     if (value == 'log') {
         loginDiv.style.display = 'block'
         registerDiv.style.display = 'none';
-        button1.style.backgroundColor = 'var(--primary-color)';
-        button1.style.color = '#000';
+        button1.style.backgroundColor = 'var(--color-verde-oscuro)';
+        button1.style.color = '#fff';
         button2.style.backgroundColor = '#fff';
-        button2.style.color = '#000';
+            button2.style.color = '#000';
     }
 
     if (value == 'reg') {
@@ -21,8 +21,8 @@ const showSection = (value) => {
         registerDiv.style.display = 'block';
         button1.style.backgroundColor = '#fff';
         button1.style.color = '#000';
-        button2.style.backgroundColor = 'var(--primary-color)';
-        button2.style.color = '#000';
+        button2.style.backgroundColor = 'var(--color-verde-oscuro)';
+        button2.style.color = '#fff';
     }
 
 }
