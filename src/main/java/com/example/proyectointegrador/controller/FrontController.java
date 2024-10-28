@@ -27,11 +27,6 @@ public class FrontController {
         return "shop";
     }
 
-    @GetMapping("/profile")
-    public String profile(){
-        return "profile";
-    }
-
     @GetMapping("/claims")
     public String claims(){
         return "claims";
