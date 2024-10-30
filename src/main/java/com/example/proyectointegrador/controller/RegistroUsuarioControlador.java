@@ -1,8 +1,10 @@
 package com.example.proyectointegrador.controller;
 
-import com.example.proyectointegrador.dto.UsuarioRegistroDTO;
+import com.example.proyectointegrador.model.dto.UsuarioRegistroDTO;
 import com.example.proyectointegrador.services.UsuarioServicio;
+import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -30,8 +32,18 @@ public class RegistroUsuarioControlador {
     }
 
     @PostMapping
-    public String registrarCuentaDeUsuario(@ModelAttribute("usuario") UsuarioRegistroDTO registroDTO) {
-        usuarioServicio.save(registroDTO);
-        return "redirect:/register?good";
+    public String registrarCuentaDeUsuario(@ModelAttribute("usuario") UsuarioRegistroDTO registroDTO, Model model) {
+        try {
+            usuarioServicio.save(registroDTO);
+            return "redirect:/register?good";
+        } catch (DataIntegrityViolationException e) {
+            if (e.getMessage().contains("dni")) {
+                model.addAttribute("dniError", true);
+            } else if (e.getMessage().contains("email")) {
+                model.addAttribute("emailError", true);
+            }
+            model.addAttribute("usuario", registroDTO);
+            return "register";
+        }
     }
 }

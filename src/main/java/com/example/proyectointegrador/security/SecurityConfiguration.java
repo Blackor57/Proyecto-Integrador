@@ -45,7 +45,9 @@ public class SecurityConfiguration {
                         .anyRequest().authenticated()
                 )
                 .formLogin(formLogin -> formLogin
-                        .loginPage("/login")
+                        .loginPage("/register")
+                        .loginProcessingUrl("/login")
+                        .failureUrl("/register?loginError=true") // Maneja errores de login
                         .defaultSuccessUrl("/profile", true)
                         .permitAll()
                 )

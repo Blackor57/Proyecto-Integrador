@@ -1,6 +1,6 @@
 package com.example.proyectointegrador.controller;
 
-import com.example.proyectointegrador.entity.Usuario;
+import com.example.proyectointegrador.model.entity.Usuario;
 import com.example.proyectointegrador.services.UsuarioServicio;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;

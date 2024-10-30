@@ -133,6 +133,7 @@
 
 .card-text {
     color: var(--dark-green);
+    font-size: 12px;
 }
 
 .card-title {

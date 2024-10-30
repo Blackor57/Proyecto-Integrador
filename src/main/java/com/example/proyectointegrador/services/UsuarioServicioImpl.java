@@ -1,8 +1,8 @@
 package com.example.proyectointegrador.services;
 
-import com.example.proyectointegrador.dto.UsuarioRegistroDTO;
-import com.example.proyectointegrador.entity.Rol;
-import com.example.proyectointegrador.entity.Usuario;
+import com.example.proyectointegrador.model.dto.UsuarioRegistroDTO;
+import com.example.proyectointegrador.model.entity.Rol;
+import com.example.proyectointegrador.model.entity.Usuario;
 import com.example.proyectointegrador.repository.UsuarioRepositorio;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -56,4 +56,6 @@ public class UsuarioServicioImpl implements UsuarioServicio{
     private Collection<? extends GrantedAuthority> mapearAutoridadesRoles(Collection<Rol> roles) {
         return roles.stream().map(role -> new SimpleGrantedAuthority(role.getNombre())).collect(Collectors.toList());
     }
+
+
 }

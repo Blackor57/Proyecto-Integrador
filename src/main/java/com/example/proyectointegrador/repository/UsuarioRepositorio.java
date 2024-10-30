@@ -1,6 +1,6 @@
 package com.example.proyectointegrador.repository;
 
-import com.example.proyectointegrador.entity.Usuario;
+import com.example.proyectointegrador.model.entity.Usuario;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
