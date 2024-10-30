@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="Correción de bugs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/ProductoControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/DetalleOrden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Orden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/detalle_producto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/PerfilControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/PerfilControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/RegistroUsuarioControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/RegistroUsuarioControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/dto/UsuarioRegistroDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/dto/UsuarioRegistroDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/entity/Rol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Rol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/entity/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/repository/UsuarioRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/repository/UsuarioRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/security/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/ProductoControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/ProductoControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,12 +34,12 @@
     &quot;assignee&quot;: &quot;Blackor57&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Blackor57/Proyecto-Integrador.git&quot;,
-    &quot;accountId&quot;: &quot;4ab2ba45-8c19-4d01-80f8-7135836421d6&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Blackor57/Proyecto-Integrador.git",
+    "accountId": "507457ba-9308-422b-876e-a29e301880a9"
   }
-}</component>
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -72,32 +56,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;Spring Boot.ProyectoIntegradorApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jhoel/OneDrive/Escritorio/RestAPI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.51424694&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ProyectoIntegradorApplication.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.ProyectoIntegradorApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "jdk.selected.JAVA_MODULE": "21",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jhoel/OneDrive/Escritorio/RestAPI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.51424694",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jhoel\IdeaProjects\Proyecto-Integrador\src\main\java\com\example\proyectointegrador\security" />
@@ -107,7 +93,24 @@
       <recent name="C:\Users\jhoel\IdeaProjects\Proyecto-Integrador\src\main\resources\static\styles" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ProyectoIntegradorApplication">
+    <configuration name="ProyectoIntegradorApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="DB_USERNAME" value="root" />
+        <env name="DB_PASSWORD" value="chicho2003" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.example.proyectointegrador.ProyectoIntegradorApplication" />
+      <module name="Proyecto-Integrador" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.proyectointegrador.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProyectoIntegradorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Proyecto-Integrador" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.proyectointegrador.ProyectoIntegradorApplication" />
@@ -115,6 +118,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ProyectoIntegradorApplication" />
+      <item itemvalue="Spring Boot.ProyectoIntegradorApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProyectoIntegradorApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -164,6 +176,7 @@
       <workItem from="1730218355566" duration="14455000" />
       <workItem from="1730247744464" duration="1261000" />
       <workItem from="1730249016828" duration="1580000" />
+      <workItem from="1730259247104" duration="5834000" />
     </task>
     <task id="LOCAL-00001" summary="ace">
       <option name="closed" value="true" />
@@ -264,5 +277,9 @@
     <MESSAGE value="peuqeña correción de stylos" />
     <MESSAGE value="Correción de bugs" />
     <option name="LAST_COMMIT_MESSAGE" value="Correción de bugs" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
