@@ -66,11 +66,6 @@ public class Usuario {
     @OneToMany(mappedBy = "usuario")
     @Getter
     @Setter
-    private List<Producto> productos;
-
-    @OneToMany(mappedBy = "usuario")
-    @Getter
-    @Setter
     private List<Orden> ordenes;
 
     @Column(nullable = false)
@@ -78,7 +73,7 @@ public class Usuario {
     @Setter
     private int estrellas = 0;
 
-    public Usuario(long id, String nombre, String apellido, String email, String password, String phone, String dni, LocalDate birthDate, Collection<Rol> roles, List<Producto> productos, List<Orden> ordenes, int estrellas) {
+    public Usuario(long id, String nombre, String apellido, String email, String password, String phone, String dni, LocalDate birthDate, Collection<Rol> roles,  List<Orden> ordenes, int estrellas) {
         this.id = id;
         this.nombre = nombre;
         this.apellido = apellido;
@@ -88,7 +83,6 @@ public class Usuario {
         this.dni = dni;
         this.birthDate = birthDate;
         this.roles = roles;
-        this.productos = productos;
         this.ordenes = ordenes;
         this.estrellas = estrellas;
     }

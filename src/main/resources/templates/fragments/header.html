@@ -1,7 +1,7 @@
 <header th:fragment="header" xmlns:sec="http://www.w3.org/1999/xhtml">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" th:href="@{/home}">
+            <a class="navbar-brand" th:href="@{/index}">
                 <img src="/img/favicon.jpg" alt="STARBUCKS" id="logoImg" width="40" height="40">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,6 +18,7 @@
 <!--                    <li class="nav-item">-->
 <!--                        <a class="nav-link" th:href="@{/locals}">Locales</a>-->
 <!--                    </li>-->
+
                     <!-- Para el Inicio de Sesion -->
                     <li class="nav-item" sec:authorize="!isAuthenticated()" >
                         <a th:href="@{/register}" class="nav-link">Iniciar</a>

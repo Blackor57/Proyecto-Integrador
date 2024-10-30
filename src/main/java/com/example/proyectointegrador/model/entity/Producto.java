@@ -44,10 +44,4 @@ public class Producto {
     @Getter
     @Setter
     private Categoria categoria;
-
-    @ManyToOne
-    @Getter
-    @Setter
-    private  Usuario usuario;
-
 }

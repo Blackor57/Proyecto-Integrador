@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4d7ba00-2efd-46b5-8ceb-ab903fc0e6cc" name="Changes" comment="Correción de bugs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/ProductoControlador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/DetalleOrden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Orden.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/detalle_producto.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/products.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/PerfilControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/PerfilControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/RegistroUsuarioControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/RegistroUsuarioControlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/dto/UsuarioRegistroDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/dto/UsuarioRegistroDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/entity/Rol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Rol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/entity/Usuario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/repository/UsuarioRepositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/repository/UsuarioRepositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/security/SecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/security/SecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicioImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/services/UsuarioServicioImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/menu.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/menu.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/ProductoControlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/controller/ProductoControlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/proyectointegrador/model/entity/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +21,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -82,7 +73,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
     &quot;Spring Boot.ProyectoIntegradorApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Proceso-de-extracción-de-datos&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/jhoel/OneDrive/Escritorio/RestAPI&quot;,
@@ -94,7 +85,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.51424694&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -163,7 +154,8 @@
       <workItem from="1730165241076" duration="3422000" />
       <workItem from="1730218355566" duration="14455000" />
       <workItem from="1730247744464" duration="1261000" />
-      <workItem from="1730249016828" duration="1580000" />
+      <workItem from="1730249016828" duration="6483000" />
+      <workItem from="1730259081795" duration="2475000" />
     </task>
     <task id="LOCAL-00001" summary="ace">
       <option name="closed" value="true" />
@@ -237,7 +229,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730093413968</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Correción de bugs">
+      <option name="closed" value="true" />
+      <created>1730254716572</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730254716572</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
